@@ -4,7 +4,7 @@ WeAct Studio STM32G474 Core Board
 #################################
 
 The WeAct STM32G474 Core Board is a low-cost bare-bones STM32G474-based development
-board. See the `STM32G431CB474CE website`_ for more information about the MCU. More information
+board. See the `STM32G474CE website`_ for more information about the MCU. More information
 about the board, including schematics, is available from the `WeAct GitHub`_. This also applies
 to the "long" version of the board as well.
 
@@ -84,7 +84,7 @@ easily.
 
 .. zephyr-app-commands::
    :zephyr-app: samples/basic/blinky
-   :board: weact_stm32g431_core
+   :board: weact_stm32g474_core
    :goals: build flash
 
 Debugging
