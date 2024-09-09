@@ -1,8 +1,7 @@
 #
 # Copyright (c) 2024 Christopher Petrilli
 #
-# SPDX-License-Identifier: Apache-2.0
-#
+# SPDX-License-Identifier: MIT
 
 board_runner_args(dfu-util "--pid=0483:df11" "--alt=0" "--dfuse")
 
