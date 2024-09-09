@@ -1,0 +1,25 @@
+identifier: weact_stm32g474_long
+name: WeAct Studio STM32G474 Long Board
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 128
+flash: 512
+supported:
+  - nvs
+  - pwm
+  - i2c
+  - gpio
+  - usb device
+  - counter
+  - spi
+  - watchdog
+  - adc
+  - dac
+  - dma
+  - can
+  - rtc
+vendor: weact

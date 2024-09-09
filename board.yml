@@ -1,0 +1,5 @@
+board:
+  name: weact_stm32g474_long
+  vendor: weact
+  socs:
+    - name: stm32g474xx
